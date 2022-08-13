@@ -20,13 +20,13 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com"><FaFacebookF/></a>
-        <a href="https://instagram.com"><FiInstagram/></a>
-        <a href="https://twitter.com"><IoLogoTwitter/></a>
+        <a href="https://www.facebook.com/rachmatramadhanh"><FaFacebookF/></a>
+        <a href="https://instagram.com/rachmatramadhanh"><FiInstagram/></a>
+        <a href="https://twitter.com/rachmatramadanh?s=09"><IoLogoTwitter/></a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Rachmat Ramadhan. All Right Reserved</small>
+        <small></small>
       </div>
     </footer>
   )

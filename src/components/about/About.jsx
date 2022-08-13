@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} alt="About Rachmat" />
           </div>
         </div>
 
@@ -29,18 +29,18 @@ const About = () => {
             <article className='about__card'>
               <FiUser className= 'about__icon'/>
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>7+ Worldwide</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className= 'about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>10+ Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium sint, ut exercitationem numquam nisi similique, quibusdam fuga in vero alias nihil amet culpa aspernatur quisquam quod rem accusamus, beatae aut.
+          I specialize in writing SEO website content, blogs, press releases, captions, and product descriptions. 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

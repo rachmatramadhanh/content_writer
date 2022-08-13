@@ -11,33 +11,74 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Content Writing</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Up to 4 blog posts every month.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Well Researched Articles.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>800+ words per post.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Primary and secondary keywords</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>SEO Optimization​</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Post directly to your WordPress blog (Optional)​</p>
             </li>
           </ul>
         </article>
         {/* END OF UI/UX */}
+        <article className="service">
+          <div className="service__head">
+            <h3>Social Media Management</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Identify target customers</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Research competition</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Define marketing goals</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Build a social media marketing calendar</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Social Media Content Creation</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Social Media Posting Schedule</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Monthly Performance Reports</p>
+            </li>
+          </ul>
+        </article>
+        {/* END OF WEB DEVELOPMENT */}
         <article className="service">
           <div className="service__head">
             <h3>Web Development</h3>
@@ -46,52 +87,27 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Fully Responsive Web Design.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>SEO and Mobile Friendly Structure.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Plugins/Extensions Installation</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Contact Form, Google Analytics & Map, Blog Integration.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-          </ul>
-        </article>
-        {/* END OF WEB DEVELOPMENT */}
-        <article className="service">
-          <div className="service__head">
-            <h3>Content Creation</h3>
-          </div>
-
-          <ul className='service__list'>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Best User Experience and CTA's.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Social Media & Live Chat Integration.</p>
             </li>
           </ul>
         </article>

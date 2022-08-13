@@ -1,10 +1,10 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
+import IMG4 from '../../assets/portfolio5.jpg'
+import IMG5 from '../../assets/portfolio4.jpg'
 import IMG6 from '../../assets/portfolio6.jpg'
 
 const Portfolio = () => {
@@ -18,60 +18,54 @@ const Portfolio = () => {
       <div className="portfolio__item-image">
         <img src={IMG1} alt="" />
       </div>
-      <h3>This is a portfolio Title</h3>
+      <h3>WPForms-specific article</h3>
       <div className="portfolio__item-cta">
-      <a href="https://github.com" className='btn' target='_blank'>Github</a>
-      <a href="https://rachmatramadhan.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+      <a href="https://rachmatramadhan.com/menghubungkan-unggahan-formulir-kontak-ke-google-drive/" className='btn btn-primary' target='_blank'>Live Demo</a>
       </div>
       </article>
       <article className='portfolio__item'>
       <div className="portfolio__item-image">
         <img src={IMG2} alt="" />
       </div>
-      <h3>This is a portfolio Title</h3>
+      <h3>OptinMonster-specific article</h3>
       <div className="portfolio__item-cta">
-      <a href="https://github.com" className='btn' target='_blank'>Github</a>
-      <a href="https://rachmatramadhan.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+      <a href="https://rachmatramadhan.com/cara-membuat-kupon-popup-di-wordpress/" className='btn btn-primary' target='_blank'>Live Demo</a>
       </div>
       </article>
       <article className='portfolio__item'>
       <div className="portfolio__item-image">
         <img src={IMG3} alt="" />
       </div>
-      <h3>This is a portfolio Title</h3>
+      <h3>MemberPress-specific article</h3>
       <div className="portfolio__item-cta">
-      <a href="https://github.com" className='btn' target='_blank'>Github</a>
-      <a href="https://rachmatramadhan.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+      <a href="https://rachmatramadhan.com/teachable-vs-memberpress/" className='btn btn-primary' target='_blank'>Live Demo</a>
       </div>
       </article>
       <article className='portfolio__item'>
       <div className="portfolio__item-image">
         <img src={IMG4} alt="" />
       </div>
-      <h3>This is a portfolio Title</h3>
+      <h3>Haana Bee Instagram Account</h3>
       <div className="portfolio__item-cta">
-      <a href="https://github.com" className='btn' target='_blank'>Github</a>
-      <a href="https://rachmatramadhan.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+      <a href="https://www.instagram.com/haana.bee.makassar/" className='btn btn-primary' target='_blank'>Live Demo</a>
       </div>
       </article>
       <article className='portfolio__item'>
       <div className="portfolio__item-image">
         <img src={IMG5} alt="" />
       </div>
-      <h3>This is a portfolio Title</h3>
+      <h3>Action Millenial Instagram Account</h3>
       <div className="portfolio__item-cta">
-      <a href="https://github.com" className='btn' target='_blank'>Github</a>
-      <a href="https://rachmatramadhan.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+      <a href="https://www.instagram.com/action.millenial/" className='btn btn-primary' target='_blank'>Live Demo</a>
       </div>
       </article>
       <article className='portfolio__item'>
       <div className="portfolio__item-image">
         <img src={IMG6} alt="" />
       </div>
-      <h3>This is a portfolio Title</h3>
+      <h3>PKBM Afizah WordPress Website</h3>
       <div className="portfolio__item-cta">
-      <a href="https://github.com" className='btn' target='_blank'>Github</a>
-      <a href="https://rachmatramadhan.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+      <a href="https://pkbmafizahprofesional.id/" className='btn btn-primary' target='_blank'>Live Demo</a>
       </div>
       </article>
       </div>

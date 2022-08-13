@@ -43,8 +43,8 @@ const Contact = () => {
         <article className="contact__option">
         <BsTelegram className='contact__option-icon'/>
         <h4>Telegram</h4>
-        <h5>@rachmathadrawi</h5>
-        <a href="https://t.me/rachmathadrawi">Send a Message</a>
+        <h5>@rachmatramadhan</h5>
+        <a href="https://t.me/rachmatramadhan">Send a Message</a>
         </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
