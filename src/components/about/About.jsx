@@ -29,18 +29,18 @@ const About = () => {
             <article className='about__card'>
               <FiUser className= 'about__icon'/>
               <h5>Clients</h5>
-              <small>7+ Worldwide</small>
+              <small>10+ Worldwide</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className= 'about__icon'/>
               <h5>Projects</h5>
-              <small>10+ Completed</small>
+              <small>300+ Completed</small>
             </article>
           </div>
 
           <p>
-          I specialize in writing SEO website content, blogs, press releases, captions, and product descriptions. 
+          I specialize in developing ideas and producing material and content that links a brand or business to its target audience.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
